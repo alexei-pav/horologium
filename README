@@ -1,0 +1,9 @@
+# Horologium
+Horologium is simple cli-based TOTP implementation. Still in beta.
+
+## Build
+Just go to source tree and type:
+```shell
+make
+```
+Yes, nothing more. Binary file will appear in the src directory.
