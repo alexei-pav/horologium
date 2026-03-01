@@ -1,0 +1,5 @@
+TODO:
+ - feat: saving database in home dir [done]
+ - fix: help message [in progress]
+ - feat: choose file/directory to load [planned]
+ - cleanup: prepare code for first release [in progress]
