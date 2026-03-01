@@ -18,22 +18,22 @@
 
 static void print_version()
 {
-  fputs("Safekey v0.1.0-beta\n", stdout);
+  fputs("Horologium v0.1.1-beta\n", stdout);
 }
 
 static const char helptxt[] = {
   "\n"
   "Warning: IT IS A BETA VERSION, CONTAINS BUGS AND ERRORS\n"
   "\n"
-  "Usage: safekey [OPTIONS] [BASE32_SECRET]\n"
+  "Usage: horologium [OPTIONS] [BASE32_SECRET]\n"
   "If no secret specified, default is: " DEFAULT_SECRET "\n"
   "\n"
   "With no OPTIONS generates TOTP using provided secret. "
   "If no secret provided DEFAULT_SECRET is used.\n"
   "\n"
   "OPTIONS:\n" 
-  "\t-a   add new	secret in database\n"
-  "\t-l   load secret by name and	generate TOTP with it\n"
+  "\t-a   add new secret in database\n"
+  "\t-l   load secret by name and generate TOTP with it\n"
   "\t-v   enable verbose output\n"
   "\t-q   quiet, disables any verbose output at all\n"
   "\t-h   display this help and exit\n"
