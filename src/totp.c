@@ -39,9 +39,9 @@ static const char helptxt[] = {
   "\t-h   display this help and exit\n"
   "\n"
   "Examples:\n"
-  "\tsafekey -a " DEFAULT_NAME DEFAULT_SECRET "   " 
+  "\thorologium -a " DEFAULT_NAME DEFAULT_SECRET "   " 
   "Save secret '" DEFAULT_SECRET "' with name '" DEFAULT_NAME "' to database\n"
-  "\tsafekey -l " DEFAULT_NAME "   Load secret with name '" DEFAULT_NAME "'\n"
+  "\thorologium -l " DEFAULT_NAME "   Load secret with name '" DEFAULT_NAME "'\n"
 };
 
 static void print_help()
