@@ -1,4 +1,4 @@
-TARGET = safekey
+TARGET = horologium
 
 CC     = gcc
 CFLAGS = -O0 -Wall -g -ansi
